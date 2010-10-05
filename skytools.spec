@@ -3,7 +3,7 @@ Name:		skytools
 Version:	2.1.11
 Release:	%mkrel 1
 License:	BSD
-Group:		Applications/Databases
+Group:		Databases
 Source0:	http://pgfoundry.org/frs/download.php/2370/%{name}-%{version}.tar.gz
 URL:		http://pgfoundry.org/projects/skytools
 BuildRequires:	postgresql-devel python-devel
@@ -16,7 +16,7 @@ The tools are named walmgr, PgQ and Londiste, respectively.
 
 %package	modules
 Summary:	PostgreSQL modules of Skytools
-Group:		Applications/Databases
+Group:		Databases
 Requires:	skytools = %{EVRD}
 
 %description	modules
