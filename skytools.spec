@@ -5,7 +5,7 @@ Release:	%mkrel 1
 License:	BSD
 Group:		Databases
 Source0:	http://pgfoundry.org/frs/download.php/2370/%{name}-%{version}.tar.gz
-URL:		http://pgfoundry.org/projects/skytools
+URL:		https://pgfoundry.org/projects/skytools
 BuildRequires:	postgresql-devel python-devel
 Requires:	python-psycopg2 postgresql
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
