@@ -6,6 +6,11 @@ License:	BSD
 Group:		Databases
 Source0:	http://pgfoundry.org/frs/download.php/2370/%{name}-%{version}.tar.gz
 URL:		https://pgfoundry.org/projects/skytools
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	postgresql-devel python-devel
 Requires:	python-psycopg2 postgresql
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
