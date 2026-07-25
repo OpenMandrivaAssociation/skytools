@@ -1,7 +1,7 @@
 Summary:	PostgreSQL database management tools from Skype
 Name:		skytools
 Version:	3.0
-Release:	%mkrel 1
+Release:	2
 License:	BSD
 Group:		Databases
 Source0:	http://pgfoundry.org/frs/download.php/2370/%{name}-%{version}.tar.gz
